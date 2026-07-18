@@ -81,7 +81,7 @@ The following architecture was designed during the initial development of the pr
 Clone the repository:
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/StudyCompanion-Agentic-AI.git
+git clone https://github.com/razanalsulaymi/StudyCompanion-Agentic-AI.git
 
 cd StudyCompanion-Agentic-AI
 ```
