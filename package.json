@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "@fontsource/press-start-2p": "^5.2.7",
+    "framer-motion": "^12.34.0",
+    "lucide-react": "^0.563.0",
+    "react-router-dom": "^7.13.0"
+  }
+}

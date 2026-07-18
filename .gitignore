@@ -1,0 +1,22 @@
+# Environment
+.env
+
+# Python
+venv/
+__pycache__/
+*.py[cod]
+
+# Database
+*.db
+
+# Logs
+*.log
+
+# Node
+node_modules/
+
+# Frontend
+Study_Companion-ui/
+
+# VS Code
+.vscode/
