@@ -1,135 +1,107 @@
-# Study Companion AI 👻 
+# 👻 Study Companion AI
 
-An AI-powered study assistant that transforms lecture materials into structured learning sessions. The system automatically analyzes lecture content, generates study tasks, creates concise summaries, builds quizzes, and produces flashcards to support active learning.
+**Development Period:** March 2026
 
-> This project focuses on AI orchestration and learning automation rather than frontend development.
+Study Companion AI is an AI-powered learning assistant designed to transform lecture materials into structured study sessions. Instead of manually creating notes and revision resources, the system uses multiple AI agents to analyze lecture content, generate concise summaries, build personalized study plans, create quizzes, and produce flashcards to support active learning.
 
----
-
-## Features
-
-- 📄 Lecture text/PDF processing
-- 🧠 AI-generated structured summaries
-- ✅ Personalized study task planning
-- ❓ Automatic quiz generation (MCQ / True-False)
-- 🃏 Flashcard generation
-- ⏱️ Pomodoro study recommendations
-- 💾 Session persistence using SQLite
-- 🤖 Multi-agent orchestration pipeline
+The project demonstrates the integration of Large Language Models (LLMs), agent orchestration, prompt engineering, and backend services into a single educational workflow.
 
 ---
 
-## AI Workflow
+## 🏗️ System Architecture
 
-```text
-Lecture PDF/Text
-        │
-        ▼
-Content Extraction
-        │
-        ▼
-Summary Agent
-        │
-        ├──────────────┐
-        ▼              ▼
-Planner Agent     Quiz Agent
-        │              │
-        ▼              ▼
- Study Tasks     Practice Questions
-        │
-        ▼
- Flashcard Agent
-        │
-        ▼
-     Student
-```
+The following architecture was designed during the initial development of the project and illustrates the interaction between the frontend, backend orchestrator, AI agents, tools, and persistence layer.
+
+<p align="center">
+  <img src="assets/architecture.png" width="100%">
+</p>
 
 ---
 
-## Screenshots
+## ✨ Key Features
 
-### Home
-
-![Home](assets/home.png)
-
-### Quiz Generation
-
-![Quiz](assets/quiz.png)
+| Feature | Description |
+|---------|-------------|
+| 📄 Lecture Processing | Extracts and processes lecture content from PDF or text files. |
+| 🧠 AI Summarization | Generates structured summaries highlighting key concepts and important information. |
+| 📅 Study Planner | Creates personalized study tasks based on the uploaded lecture. |
+| ❓ Quiz Generation | Produces multiple-choice and True/False questions for self-assessment. |
+| 🃏 Flashcards | Generates memory cards to support active recall and long-term retention. |
+| ⏱️ Pomodoro Timer | Encourages focused study sessions using the Pomodoro technique. |
+| 💾 Session Persistence | Stores study sessions and progress using SQLite. |
+| 🤖 Multi-Agent Workflow | Coordinates specialized AI agents through a Flask-based orchestration layer. |
 
 ---
 
-## Tech Stack
+## 📸 Interface Preview
 
-| Category | Technologies |
-|----------|--------------|
-| Backend | Flask, Python |
-| LLM | Google Gemini API |
+### Dashboard
+
+<p align="center">
+  <img src="assets/home.png" width="90%">
+</p>
+
+### AI-Generated Quiz
+
+<p align="center">
+  <img src="assets/quiz.png" width="90%">
+</p>
+
+---
+
+## 🧠 AI Agent Architecture
+
+| Agent | Responsibility |
+|--------|----------------|
+| **Summary Agent** | Produces structured summaries from lecture content. |
+| **Planner Agent** | Generates personalized study tasks and learning objectives. |
+| **Quiz Agent** | Creates multiple-choice and True/False assessment questions. |
+| **Cards Agent** | Generates flashcards for active recall practice. |
+| **Critic Agent** | Reviews and validates generated responses before returning them to the user. |
+
+---
+
+## ⚙️ Tech Stack
+
+| Layer | Technologies |
+|------|--------------|
+| Programming Language | Python |
+| Backend | Flask |
+| LLM | Google Gemini |
 | AI Framework | LangChain |
-| Database | SQLite |
 | Validation | Pydantic |
+| Database | SQLite |
 | Frontend | React |
-| Styling | CSS |
-| Environment | dotenv |
+| Environment | python-dotenv |
 
 ---
 
-## Project Structure
+## 🚀 Getting Started
 
-```text
-Study_Companion/
-│
-├── app.py
-├── requirements.txt
-├── .env.example
-├── .gitignore
-└── README.md
-```
-
----
-
-## AI Components
-
-| Component | Responsibility |
-|------------|----------------|
-| Planner Agent | Generates personalized study tasks |
-| Summary Agent | Produces structured lecture summaries |
-| Quiz Agent | Creates MCQ and True/False assessments |
-| Cards Agent | Generates memory flashcards |
-| Critic Agent | Validates AI outputs before returning results |
-
----
-
-## Learning Pipeline
-
-1. Upload lecture material.
-2. Extract lecture text.
-3. Generate a structured summary.
-4. Build a personalized study plan.
-5. Generate quizzes.
-6. Create flashcards.
-7. Continue studying using the Pomodoro timer.
-
----
-
-## Installation
+Clone the repository:
 
 ```bash
-git clone https://github.com/USERNAME/Study-Companion-AI.git
+git clone https://github.com/YOUR_USERNAME/StudyCompanion-Agentic-AI.git
 
-cd Study-Companion-AI
+cd StudyCompanion-Agentic-AI
+```
 
+Install dependencies:
+
+```bash
 pip install -r requirements.txt
 ```
 
-Create a `.env`
+Create a `.env` file:
 
 ```env
 GOOGLE_API_KEY=YOUR_API_KEY
 GEMINI_MODEL=gemini-2.5-flash
 FAST_GEMINI_MODEL=gemini-2.5-flash
+LLM_TEMPERATURE=0.2
 ```
 
-Run
+Run the application:
 
 ```bash
 python app.py
@@ -137,6 +109,25 @@ python app.py
 
 ---
 
-## Notes
+## 📂 Repository
 
-This repository focuses on the AI backend and orchestration logic. The frontend has intentionally been omitted from the public repository to keep the project centered on the AI architecture and learning pipeline.
+This public repository focuses on the AI architecture, orchestration workflow, and backend implementation.
+
+The original frontend source code has intentionally been excluded to keep the repository centered on the AI components and overall system design while showcasing the application's functionality through screenshots.
+
+---
+
+## 🔮 Future Improvements
+
+- Support multiple LLM providers.
+- Improve long-term conversational memory.
+- Enhance agent collaboration and planning.
+- Add cloud deployment and user authentication.
+- Support OCR for scanned lecture documents.
+- Expand evaluation and benchmarking for generated educational content.
+
+---
+
+## 👩‍💻 Author
+
+Developed as a personal AI project exploring multi-agent orchestration, LLM-powered educational tools, and intelligent learning workflows.
