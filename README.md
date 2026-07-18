@@ -76,44 +76,20 @@ The following architecture was designed during the initial development of the pr
 
 ---
 
-## 🚀 Getting Started
 
-Clone the repository:
+## 📂 Repository Overview
 
-```bash
-git clone https://github.com/razanalsulaymi/StudyCompanion-Agentic-AI.git
+This repository showcases the AI architecture, backend orchestration, and system design behind **Study Companion AI**.
 
-cd StudyCompanion-Agentic-AI
-```
+The public version includes:
 
-Install dependencies:
+- AI orchestration workflow
+- Backend implementation
+- System architecture
+- Prompt engineering examples
+- Project documentation
 
-```bash
-pip install -r requirements.txt
-```
-
-Create a `.env` file:
-
-```env
-GOOGLE_API_KEY=YOUR_API_KEY
-GEMINI_MODEL=gemini-2.5-flash
-FAST_GEMINI_MODEL=gemini-2.5-flash
-LLM_TEMPERATURE=0.2
-```
-
-Run the application:
-
-```bash
-python app.py
-```
-
----
-
-## 📂 Repository
-
-This public repository focuses on the AI architecture, orchestration workflow, and backend implementation.
-
-The original frontend source code has intentionally been excluded to keep the repository centered on the AI components and overall system design while showcasing the application's functionality through screenshots.
+The frontend source code has intentionally been excluded to keep the repository focused on the AI components while preserving the original interface through screenshots.
 
 ---
 
@@ -127,7 +103,3 @@ The original frontend source code has intentionally been excluded to keep the re
 - Expand evaluation and benchmarking for generated educational content.
 
 ---
-
-## 👩‍💻 Author
-
-Developed as a personal AI project exploring multi-agent orchestration, LLM-powered educational tools, and intelligent learning workflows.
