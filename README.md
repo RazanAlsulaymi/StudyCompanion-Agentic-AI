@@ -91,15 +91,3 @@ The public version includes:
 
 The frontend source code has intentionally been excluded to keep the repository focused on the AI components while preserving the original interface through screenshots.
 
----
-
-## 🔮 Future Improvements
-
-- Support multiple LLM providers.
-- Improve long-term conversational memory.
-- Enhance agent collaboration and planning.
-- Add cloud deployment and user authentication.
-- Support OCR for scanned lecture documents.
-- Expand evaluation and benchmarking for generated educational content.
-
----
