@@ -1,6 +1,6 @@
 # 👻 Study Companion AI
 
-Developed during the Tuwaiq Agentic AI Bootcamp (2026)
+**Developed** during the Tuwaiq Agentic AI Bootcamp (2026)
 
 Study Companion AI is an AI-powered learning assistant designed to transform lecture materials into structured study sessions. Instead of manually creating notes and revision resources, the system uses multiple AI agents to analyze lecture content, generate concise summaries, build personalized study plans, create quizzes, and produce flashcards to support active learning.
 
@@ -81,13 +81,13 @@ The following architecture was designed during the initial development of the pr
 
 This repository showcases the AI architecture, backend orchestration, and system design behind **Study Companion AI**.
 
-The public version includes:
+This repository demonstrates:
 
-- AI orchestration workflow
-- Backend implementation
-- System architecture
-- Prompt engineering examples
-- Project documentation
+• Multi-agent orchestration
+• Modular Flask backend
+• Prompt engineering workflow
+• LLM integration
+• System architecture
 
 The frontend source code has intentionally been excluded to keep the repository focused on the AI components while preserving the original interface through screenshots.
 
