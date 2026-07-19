@@ -84,9 +84,13 @@ This repository showcases the AI architecture, backend orchestration, and system
 This repository demonstrates:
 
 • Multi-agent orchestration
+
 • Modular Flask backend
+
 • Prompt engineering workflow
+
 • LLM integration
+
 • System architecture
 
 The frontend source code has intentionally been excluded to keep the repository focused on the AI components while preserving the original interface through screenshots.
