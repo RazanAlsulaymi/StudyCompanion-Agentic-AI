@@ -1,4 +1,5 @@
 import os
+import os
 
 from flask import Flask, jsonify, request
 from flask_cors import CORS
@@ -151,7 +152,6 @@ def agent_event():
         updated_state=state,
         ui_patch=patch,
     )
-
     return jsonify(
         response.model_dump()
     )
