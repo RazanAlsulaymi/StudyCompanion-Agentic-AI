@@ -1,6 +1,6 @@
 # 👻 Study Companion AI
 
-**Development Period:** March 2026
+**Developed during the Tuwaiq Agentic AI Bootcamp (2026)
 
 Study Companion AI is an AI-powered learning assistant designed to transform lecture materials into structured study sessions. Instead of manually creating notes and revision resources, the system uses multiple AI agents to analyze lecture content, generate concise summaries, build personalized study plans, create quizzes, and produce flashcards to support active learning.
 
